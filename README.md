@@ -1,44 +1,45 @@
 # Asteroid Sprint
 
-A game where you have to navigate through falling asteroids as long as you can.  
-Link of the itch.io game page : [Asteroid Sprint](https://g-bloxy.itch.io/asteroid-sprint).  
-The game is currently in development. The first version is released on itch.io. You can find its source code in the `first-version` branch.
+Asteroid Sprint is an innovative game where you navigate through falling asteroids using hand gestures detected via keypoints, offering a unique, controller-free gameplay experience.
 
-## Screenshots (old version)
+This project was developed by the Computer Science Club, proudly representing Moulay Ismail University. Asteroid Sprint was showcased at the Moroccan Gaming Expo as part of the club's commitment to pushing the boundaries of interactive entertainment and demonstrating the potential of AI-driven controls in gaming.
 
-![screenshot-menu](https://github.com/gBloxy/Asteroid-Sprint/assets/121670440/d89b798b-8686-4770-ba33-c3507b5193b6)
-![screenshot-game](https://github.com/gBloxy/Asteroid-Sprint/assets/121670440/3dba2041-2a1f-4c0e-b16c-a12c825ef0bb)
+## About the Game
 
-## Play the game
+In Asteroid Sprint, your hands become the controller! Using computer vision and keypoint detection, the game tracks your hand movements, allowing you to dodge asteroids and survive as long as possible. This hands-free approach provides an engaging and accessible way to play, making it a highlight at the Moroccan Gaming Expo showcase.
 
-To launch the game, unzip the game folder, then execute the `asteroid_sprint.py` file.
+## Play the Game
+
+To launch the game:
+1. Unzip the game folder.
+2. Execute the `asteroid_sprint.py` file.
 
 ## Requirements
 
-* Make sure you have [python](https://www.python.org) installed.  
-* Use the package manager [pip](https://pip.pypa.io/en/stable/) to install [pygame-ce](https://pyga.me).  
+* [Python](https://www.python.org) must be installed.
+* Install [pygame-ce](https://pyga.me) using pip:
 ```bash
 pip install pygame-ce
 ```
-* Warning : if [pygame](https://www.pygame.org/news) is already installed, uninstall it before installing pygame-ce.  
+* If [pygame](https://www.pygame.org/news) is already installed, uninstall it before installing pygame-ce:
 ```bash
 pip uninstall pygame
 ```
 
 ## Contributing
 
-If you encounter any issues, have suggestions, or need support, please don't hesitate to reach out by creating an issue in the repository or leaving a comment on itch.io.  
-All feedbacks are welcome.
+We welcome all feedback, suggestions, and contributions! If you encounter any issues or have ideas for improvement, please create an issue in the repository or leave a comment. Your support helps us grow and improve the project.
 
 ## Credits
 
-This game was created by g_Bloxy.  
-The spaceship fire trail is a customized version of the [fire vfx](https://github.com/kadir014/pygame-vfx) of @kadir014 on github.  
-The death particles are a customized version of the [vfx](https://github.com/eliczi/vfx) of @eliczi on github.  
-Font used : [orbitron](https://www.theleagueofmoveabletype.com/orbitron) from the league of moveable type.  
-Music used : Screen Saver from Kevin MacLeod ([incompetech.com](https://incompetech.com))   
-You can find all licenses in the `licenses` folder.
+- Developed by the Computer Science Club, Moulay Ismail University
+- Showcased at the Moroccan Gaming Expo
+- Spaceship fire trail: customized from the [fire vfx](https://github.com/kadir014/pygame-vfx) by @kadir014
+- Death particles: customized from the [vfx](https://github.com/eliczi/vfx) by @eliczi
+- Font: [Orbitron](https://www.theleagueofmoveabletype.com/orbitron) from The League of Moveable Type
+- Music: "Screen Saver" by Kevin MacLeod ([incompetech.com](https://incompetech.com))
+- All licenses are available in the `licenses` folder.
 
 ## LICENSE
 
-The game is licensed under the GPL-3.0 license - See the `LICENSE` file for details.
+This game is licensed under the GPL-3.0 license. See the `LICENSE` file for details.
