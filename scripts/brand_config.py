@@ -1,0 +1,81 @@
+# Brand Configuration for Futuristic Tech Organization
+# Primary color: vibrant neon green (#8cc53e)
+# Secondary colors: black, dark grey, and white
+
+# Color Palette
+BRAND_GREEN = (140, 197, 62)  # #8cc53e - Primary neon green
+BRAND_BLACK = (0, 0, 0)       # Pure black
+BRAND_DARK_GREY = (30, 30, 30)  # Dark grey
+BRAND_LIGHT_GREY = (80, 80, 80)  # Light grey
+BRAND_WHITE = (255, 255, 255)  # Pure white
+BRAND_OFF_WHITE = (240, 240, 240)  # Off white
+
+# Accent Colors
+BRAND_GREEN_GLOW = (160, 217, 82)  # Brighter green for glow effects
+BRAND_GREEN_DARK = (100, 157, 42)  # Darker green for shadows
+BRAND_CYAN = (0, 255, 255)  # Cyan for tech accents
+BRAND_BLUE = (0, 150, 255)  # Blue for UI elements
+
+# UI Colors
+UI_BACKGROUND = BRAND_BLACK
+UI_PANEL = BRAND_DARK_GREY
+UI_BORDER = BRAND_GREEN
+UI_TEXT = BRAND_WHITE
+UI_TEXT_SECONDARY = BRAND_LIGHT_GREY
+UI_ACCENT = BRAND_GREEN
+
+# Game Colors
+GAME_BACKGROUND = BRAND_BLACK
+GAME_GRID = BRAND_DARK_GREY
+GAME_GRID_ACCENT = BRAND_GREEN
+PLAYER_COLOR = BRAND_GREEN
+PLAYER_GLOW = BRAND_GREEN_GLOW
+ASTEROID_COLOR = BRAND_LIGHT_GREY
+ASTEROID_ACCENT = BRAND_GREEN
+POWERUP_COLOR = BRAND_CYAN
+POWERUP_GLOW = BRAND_BLUE
+
+# Particle Colors
+PARTICLE_PRIMARY = BRAND_GREEN
+PARTICLE_SECONDARY = BRAND_CYAN
+PARTICLE_TERTIARY = BRAND_BLUE
+PARTICLE_GLOW = BRAND_GREEN_GLOW
+
+# Circuit Pattern Colors
+CIRCUIT_LINE = BRAND_GREEN
+CIRCUIT_NODE = BRAND_GREEN_GLOW
+CIRCUIT_BACKGROUND = BRAND_DARK_GREY
+
+# Typography
+FONT_PRIMARY = 'asset/orbitron-bold.otf'  # Futuristic font
+FONT_SIZE_LARGE = 32
+FONT_SIZE_MEDIUM = 24
+FONT_SIZE_SMALL = 16
+FONT_SIZE_TINY = 12
+
+# Visual Effects
+GLOW_INTENSITY = 0.8
+PARTICLE_COUNT = 100
+CIRCUIT_DENSITY = 0.3
+GEOMETRIC_PATTERNS = True
+
+# Animation Settings
+ANIMATION_SPEED = 1.0
+GLOW_PULSE_SPEED = 2.0
+PARTICLE_FADE_SPEED = 0.95
+
+# Brand Elements
+BRAND_NAME = "TechCorp"
+GAME_TITLE = "Asteroid Sprint - Tech Edition"
+VERSION = "2.0 - Futuristic"
+
+# Circuit Pattern Configuration
+CIRCUIT_GRID_SIZE = 50
+CIRCUIT_LINE_WIDTH = 2
+CIRCUIT_NODE_RADIUS = 3
+CIRCUIT_CONNECTION_PROBABILITY = 0.3
+
+# Geometric Pattern Settings
+GEOMETRIC_SHAPES = ['triangle', 'square', 'hexagon', 'circle']
+GEOMETRIC_COLORS = [BRAND_GREEN, BRAND_CYAN, BRAND_BLUE]
+GEOMETRIC_OPACITY = 0.1 
